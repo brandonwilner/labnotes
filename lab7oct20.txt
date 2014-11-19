@@ -1,0 +1,44 @@
+\#\#\#\#Lab 10/20/14
+--------------------
+
+***Midterm on Nov. 5***
+
+------------------------------------------------------------------------
+
+    Group for experimental methods in the humanities
+
+    xpmethod.github.io/research.html
+
+    "Minimal viable citizen"
+    Thinking about the tools and practices one needs to know to be a citizen in the digital world.
+
+    Programming mindset is to break problems down into smaller components.
+    Step-by-step algorithm.
+
+    When using grep, make sure there are no spaces in your list.
+
+    sed is a line-based substitution engine.
+    sed 's/\s/\n/g' pg2701.txt 
+    Sub Space for a New line, doing it Globally
+
+\`\`\` Hunting the Whale assignment
+
+mkdir huntingthewhale
+
+wget
+https://raw.githubusercontent.com/denten-courses/code-poetry/master/2014-fall/project/pg2701.txt
+
+touch human.txt
+
+nano human.txt man woman men woman person people talk speak wife husband
+mother father human
+
+touch animal.txt
+
+nano animal.txt whale fish octopus squid fin blowhole dog cat monkey rat
+flea
+
+grep -f --file=animal.txt pg2701.txt \>\> animalwords.txt
+
+grep -f --file=human.txt pg2701.txt \>\> humanwords.txt
+

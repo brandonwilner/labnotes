@@ -1,0 +1,102 @@
+### Lab 11/12/14
+
+#### Github
+
+    + Trad. model --> send copy to collaborators, each edits and sends back separately.
+
+      + (a way to solve this is to send it in order, pretend you can't make copies)
+
+    + Cloud model --> Google docs style, everyone edits at once
+      + problematic because someone can overwrite your work and it's lost
+
+------------------------------------------------------------------------
+
+    "Version control systems"
+
+    We're learning git, but really it's "versioning" period.
+
+    Think of git as journaling. Every day you make a diary entry—the diary is called "git."
+
+    Git operate w/ the notion of project (just a folder). You're always in some folder when working on a computer, so imagine a layer of git is just a folder (it's a vector; it's evolving). Imagine every time you touch something as a sequential number of changes—it's linear. This is the file system (FS). As you edit the file, you're losing earlier versions unless you save each time. 
+
+    To solve this problem, you add another layer called git (or journal, diary, etc.). Add one more layer called staging.
+
+    Three layers are stage, journal, FS. Stage is just a "temporary grab bag" that will package changes from FS to git. Stage is an easy way to make versions more legible to you.
+
+    Imagine the stage as your desk. You can change a file you're working on, pick the versions you want to package together, and "stage" these—say, v1 and v3 together as one. 
+
+    You're working as you were before, but doing so by keeping tracking of what you've done for the day. You can also show someone your progress. 
+
+    Work, bundle things into stages, commit them to diary. 
+
+    git init (FS)
+    Will create a .git directory on your machine. It will keep track of a certain folder. When you want to package certain changes, you "git add [insert filname]" (stage).
+
+    git commit (journal)
+
+    "The powerful stuff"
+    It's all local. The git level is on your machine. You've made your FS much smarter; it has a ledger. 
+
+    There's also a remote server that will contain a copy of the *journal*. With the command "git push" you'll take a version and synchronize it with a remote server. The "diary" is out there in the cloud. 
+
+    Github is a free version of this remote. You can work in other ones, but github is just a free one that many people are using right now. 
+
+    Imagine a second person contributing to the same remote server from different FS/stage/git. You're constantly asked to sync with the remote timeline. 
+
+    git push/git pull
+
+    There are restrictions of who can contribute to the remote server (hub).
+
+    ls -a 
+    Shows hidden files.
+
+    git commit
+    every commit into the journal has to be accompanied by your notes. 
+
+    What happens if you change the file after you stage it? You need to stage a new version of the file.
+
+    First time you push you do "origin master." Later you just do git push. The only things that are pushed are the files staged and committed.
+
+    Do not put home directory under version control. Make sure you're not pushing private data to a remote server. 
+
+    To take a directory out of verson control:
+    rm -rf .git/
+    (remove, recursively and with force, the git directory)
+
+    All of this depends on plaintext. When github compares versions, it's doing a line-by-line comparison. If you check in a binary file, it'll still try to compare things but it's useless.
+
+    You version control the source. This workflow forces you to separate source files from printouts.
+
+    When you start with plaintext, you can engineer on top of it.
+
+    Create your own cheat sheet in your lab notes.
+
+    11/19 lab
+
+    One of the methods of online collaboration.
+
+    Google docs style. Everyone edits the same document.
+    Works for small projects, but doesnt' save changes for long project. 
+
+    Branching solves this issue. (With a document with version, you can branch off and create a different trajectory. And you could conceivably allow branches to converge again.) Branches could be "developing" version, "test," "live." 
+
+    w/ remote and local branches.
+    Two people working on some project can make a copy from the remote branch, work on it locally, and then push the changes back to the server (and pull back down, etc.) It's an editorial workflow. The person who merges the pull request is an editor. 
+
+    **All of this is only possible if you write in plaintext**
+
+    Open a new repository (folder on github) called labnotes. Push your labnotes to that repository. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+#### Lab 10/29
+
+------------------------------------------------------------------------
+
+Turing machine v. universal Turing machine
+
+State + A --\> !A (negation machine) + (this is a circuit—hardware) +
+A --\> A (affirmation machine)
+
+These are Turing machines. A universal Turing machine takes not only
+symbols as an input, but can also take a whole machine. That's the
+difference between a universal Turing and a Turing machine. Can take on
+the property of any other machine.
+
+Computable and effectively computable are the same thing.
+
+The state of the machine is the physics and mechanics as well as
+whatever it may be reading at one time.
+
+"state of mind" (on 250) <br>
+
+What is the software? "Not such an easy question to answer."
+
+No hard drive. Turing machine has no software (tape is only input and
+output).
+
+read only memory
+
+Weasel words + Find three papers. + Convert them into plain text. + Find
+the weasel words (very, clearly, etc.) + Search for the weasel words in
+the files. + Replace them with something/nothing. + Find the replaced
+lines (old and new) and put them in a separate file.
+
+Munging + destructive manipulation of data + don't ever do it "in place"
+make sure you're dumping the output of munging into a new file. + don't
+just move. Copy.
+

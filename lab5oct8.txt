@@ -1,0 +1,74 @@
+##### Lab 5
+
+##### 10/8
+
+DLL - shared component of an application
+
+"versioning" - drafting code in different versions of a language
+
+in the Unix world, all the programs are checked into the repository. Has
+different "flavors." This dist. retains a repository of all the files.
+
+Mac ecosystem doesn't provide a central repository system. There's an
+unofficial one called "Brew." Macs don't include some important tools
+like wget.
+
+Brew acts as this mediating repository.
+
+Other kinds of repositories that are connected to language.
+
+You have to install a repository manager.
+
+Debian repository packages.
+
+Brew is a library. Through Brew you can install whatever they have in
+their repository. (Python, Ruby, etc.) Instead of going to the Ruby
+website, do it with Brew. They'll solve whatever issues you might have
+in downloading specific programs.
+
+    wget can extract files from the internet.
+
+    Head shows first few lines of the document.
+
+    Tail shows the last.
+
+    pandoc -o - guess the file based on the extension.
+
+The first few lines of a file tell Adobe Reader that it's a PDF.
+
+mp3 output is not in plaintext.
+
+    Search
+    ------
+    locate
+    find
+    grop
+    awk
+
+    Friends
+    --------
+    head
+    tail 
+    cat
+    man
+
+    Flow
+    -------
+    |    >>
+
+    Network
+    --------
+    wget
+    curl
+    ssh
+    ping
+    traceroute
+
+Locate looks at the database of files that sit somewhere in your system.
+
+    * "means anything"
+    "globbing"
+
+    -r - recursively - runs whatever command on every single file in a certain directory (one at a time)
+    -ri - remove recursively w/ confirmation.
+

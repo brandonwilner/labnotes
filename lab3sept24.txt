@@ -1,0 +1,115 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\b\fs24 \cf0 Rehashing markdown \b0\
+Personal data flows as vectors. Not only applicable for personal use.\
+The same idea follows in literature.\
+\
+Various editing formats for blogging, MS Word, email, etc. They'92re
+also all backed up differently.\
+DT proposes unification. Use one format (plaintext) across these
+platforms.\
+One editing platform as well. One way to modify, back up, etc.\
+There are political gains as well as advances in general convenience.\
+There are large-scale societal impacts of this fragmentation.\
+Once the environment is unified, you could use much more powerful tools
+(e.g. one that tells you when you'92re overusing a word).\
+Tools that grow with you'97change as your needs change.\
+\
+Plaintext as a format.\
+Markdown (a plaintext format).\
+\
+ \b Using markdown \b0\
+\
+Download and use a local markdown program.\
+The file is fine across all editers.\
+Markdown is human readable; even when it'92s not typeset, it already
+looks pretty good.\
+Key idea is that you'92re not identifying stylistic elements, just
+semantic ones.\
+\
+**emphasis** does make make something bold'97it only says that it should
+be emphasized. Others can choose in what style to do so.\
+\
+\# heading\
+\#\# subheading\
+\#\#\# sub-sub-heading\
+Title\
+=======\
+Title\
+\
+[link] (url)\
+between two `everything is code.\ between three` is a code block.\
+\
+Ex:\
+`\ # header\`\
+\
+Semantic, meaningful units of text.\
+\
+Two spaces is a line break (like </br>). Carriage return\
+\> is the convention for a quotation.\
+\
+A renderer can put the text in MLA or Chicago \i later \i0 .\
+\
+Markdown source code can be written in any editor, but it has to be
+saved in a plaintext editor.\
+\
+Vim, emex, sublime'97other editors. Nano is very simple. Dillinger is
+just nice looking. Macdown is an edtior \b and \b0 a renderer.\
+\
+DT is happy to receive papers in markdown.\
+Many boxes where you have to type text online already understand
+markdown. For instance, stackexchange.com understands markdown. They
+could have given a toolbox, but they just leave it to markdown.\
+\
+There is a tool from a philosophy prof at Berkeley. That'92s pandoc. It
+converts anything into anything. A universal renderer. It works on a
+command.\
+Pick one that grows with you. When you'92re done writing, you'92ll
+typeset.\
+Authoria.\
+\
+Sometimes you might draft in markdown but you have to submit a Word
+doc.\
+\
+You can connect plaintext to .bib (the way to save a bibliography).\
+\
+Yaml:\
+three hyphens\
+title:\
+bibliography: bib.bib\
+author:\
+category: paper, academic\
+three hyphens\
+This is the place to put metadata.\
+\
+You don'92t need to indent; it'92s a formatting question, not a semantic
+one.\
+\
+pandoc -so\
+s '93be smart about the formatting.\
+o is '93guess the type of file based on the extension'94 (.md)\
+pandoc -so test.pdf test.md\
+\
+A command line tool is just a very simple application.\
+These tools do one thing well. They all have the same syntax. The flags
+are always flags. They'92re different, but they'92ll always be flags.\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+}
+

@@ -1,0 +1,141 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww13400\viewh9600\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 Pride in/ownership of implements (as has a chef,
+photographer, etc.)\
+\
+The terminal\
+Why the teminal?\
+Larger computers in the 70s\
+shared computing environment'97machine servicing dozens, hundreds\
+a terminal is not a given (thermostat)\
+\
+Most computers today are used by one person, though they have accounts
+to accomodate a shared style\
+\
+Cloud computing is a return to the shared model. Logging into large
+mainframes that services millions\
+\
+terminal emulator present in modern computers\
+\
+ \b bash\
+\
+ \b0 Unix and its derivatives\
+philosophy of computing that has found its way into almost every
+computer that surrounds us today\
+It'92s been around since the 80s and will be there for another century
+at least\
+Very stable, way to interact with machines that has been developed for a
+long time and will continue to be\
+'93Will this be around for a long time?'94 '93Will it grow?'94 '93Will
+you be able to modify it?'94 '93Is the source code for a program
+free?'94 '93Who controls it?'94 Is it proprietary?'94 '93Does it store
+info in a proprietary environment or in plaintext?'94\
+With Unix, plaintext is baked into the system.\
+Creators of Unix wanted to create programs that operate in plaintext.\
+It'92s a textual system where on a low level, the idea of producing,
+processing text is baked into the philosophy. (Not some notion of
+digital binary or code that drives it.)\
+Reasons for Unix\
+It'92s everywhere.\
+It'92s long lasting.\
+It'92s human friendly.\
+\
+ \b Interface \b0\
+MS Word and Photoshop aren'92t compatible in terms of interface. They
+each have a different language. In the terminal window, everything works
+the same across machines. Standardization of interface. Small tools.\
+It'92s a fairly friendly UI\
+\
+When you look for new tools, consider whether it'92ll grow with you.
+What'92s the learning curve? Will it grow as your knowledge does? MS
+Word is not targeted for advanced users. Writing books is difficult in
+it. It'92s not designed for professional use.\
+\
+Tools that are the GPS'97where am I?\
+\
+'97'97'97'97'97'97'97'97'97\
+\
+Unix is a very simple language, vocabulary.\
+Unix syntax:\
+Verb \> adverb \> object\
+Verb\
+\
+ \b ls \b0 has an implicit object (current directory)\
+ \b ls bin \b0 lists contents of the directory bin\
+EVERYTHING IS A PATH\
+\
+\
+ \b pwd \b0 '96 means root (path to working directory)\
+ \b ls \b0 '96 list\
+(Files arranged in tree-like directory that starts at the root.)\
+ls and pwd are your '93best friends.'94\
+ \b man \b0 - manual\
+ \b man ls \b0 '96 tells what ls stands for\
+'93man is your best friend'94\
+ \b man man \b0 used to be a book\
+ \b clear \b0 '96 clears prompt\
+ \b cd \b0 '96 change directory\
+ \b .. \b0 means one directory up\
+ \b '85 \b0 is two directories up\
+ \b cd - \b0 goes to the last directory where you were\
+ \b pushd \b0 '96 running list of directories\
+ \b popd \b0 '96\
+ \b / \b0 means root\
+ \b bin, dev, boot, lib \b0 '96 tells developers what to name folders.
+Advises where to install directories (for spec. users etc.).\
+ \b \~ \b0 '96 home, it'92s a default. It'92s an arbitrary path.\
+ \b cd \~ \b0 gets you to the home directory, whatever it is.\
+ \b . \b0 '96 '93here.'94\
+ \b mkdir \b0 '96 make directory (creates folder, file, etc.)\
+ \b cat \b0 '96 concatenate files and print on the standard output
+(screen, in my case).\
+\
+\
+'97'97'97'97'97'97'97'97'97'97'97'97'97\
+\
+There are very powerful tools that do what spotlight does (find a
+certain file), but you can make really complicated things like full text
+search. Say you want to full text search your PDFs. Do PDFs contain
+plaintext data?\
+\
+Unix has a bias towards plaintext data. It'92s portable, works on any
+machine. Plaintext data is sustainable. If you are keeping documents in
+plain data, it can be incorporated anywhere (a library, say). MS Word
+files are not plaintext. Under the covers of something like a PDF file,
+there'92s something that'92s not human readable. Adobe'92s code isn'92t
+human readable. Need to think about the format in which we'92re storing
+information. MS Word may not survive; it may choose to not maintain the
+format in which we'92re writing.\
+\
+Librarians take long views of these matters; we don'92t always do so.
+'93Will this be around for a long time?'94\
+\
+Plaintext is very easy to reprocess, to mine for info, to do a full-text
+search. If you want to work programmatically, Adobe doesn'92t allow you
+to do that. Adobe files are encrypted so that they'92re not accessible
+through the back end. Encryption restricts low-level system access to
+files. As researchers, DT hopes the govt. releases documents that are
+easy to mine for info.\
+\
+Take a theoretical insight, see how it works on a system level.\
+Tab is autocomplete. Protects you from doing stupid things.\
+You may make a typo if you'92re typing, but autocomplete keeps it'92s
+straight.\
+If autocomplete isn'92t working, that may mean something is wrong in
+your programming.\
+.txt is plaintext. .doc is not.\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+}
+

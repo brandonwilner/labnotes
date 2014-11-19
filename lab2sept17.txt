@@ -1,0 +1,155 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww11080\viewh6640\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 Hands-on feel for textuality.\
+We'92ll return to Sontag. Talk about form and content.\
+\
+These technological decisions have a political implication.
+Phenomenological implications as well (Heidegger).\
+Technology as a way to form the world around us.\
+Computer is not just an extension of one'92s hand, but one'92s brain.\
+\
+TEXT: how they work in our daily lives.\
+Managerial problem: how do we organize our files? It has wider
+implications'97they way we organize our files is related to the way
+they'92re consumed, published, etc. ('93superstructural phenomena'94:
+dissemination of knowledge).\
+\
+Superstructural problems have their roots in the base phenomena'97the
+production of knowledge.\
+\
+THE PROBLEM: Text, documents'97we usually think of it as a finished
+object. We think of them as points. We should start thinking about them
+as lines or vectors. The vector from one brain to another brain. The
+document is not just one thing. It travels: in space, literally, as well
+as in time. Electrons travel across the country as do books in a truck.\
+\
+In textual criticism, it'92s very difficult to know when the poem is
+finished. A fixed entity like a poem is actually an amorphous one. What
+is the content of the poem; it'92s something shifting.\
+\
+An \b email \b0 : it'92s a vector and has physical shape.\
+A \b term paper \b0 also has a particular vector.\
+The vector of Google has a particular set of affordances: it will not
+forget (for now).\
+ \b Books on Amazon \b0\
+same problems: how are they stored, shared, backed up.\
+\
+Encryption is an issue: you might do it yourself to allow it some amount
+of encryption.Vectors push us in different directions and it'92s very
+difficult to take control of them. Google, Amazon wants to say they'92ll
+just take care of it for us.\
+\
+In the birth of an idea, we often use a proprietary format. Drafting in
+Word pushes you into a particular ecosystem. If you want to enrypt a
+document, you might not have the ability. The medium in which you start
+will form the shape that idea takes.\
+\
+Solution: take the origin points of all of these vectors (book, to-do
+list, email, document) and\
+Common set of problems.\
+Access, search, distribution, encryption, back-up'97what Google wants to
+take of all of it for us. This is an uncomfortable idea (for Tenen, for
+Heidegger).\
+Extricate us from a particular set of vectors.\
+ \b Turing. '93The Universal Machine'94 \b0\
+Computer: a machine that can emulate any other machine. Turing'92s
+definition.\
+There'92s a level of abstraction that floats above the hardware, and
+that'92s where we start.\
+Frees of from the physical confines of the universe.\
+Evan Moaklin: if you don'92t own the hardware, you don'92t own the
+ideas.\
+These things are not easy to do. It requires great training and
+education. We don'92t normally examine the material contents of our
+computers in this way.\
+\
+The idea is that you can unify the vectors. You can'92t search your
+e-books and papers on your machine at the same time, but this is the
+idea.\
+The dream is to unify the vectors at the points of origin. And to do so
+in plaintext'97non-proprietary, easy to search, easy to vectorize
+(publish, disseminate).\
+\
+Winner paraphrased: when you buy into a technology, it'92s equivalent to
+making the law.\
+Most journals don'92t accept articles in anything but MS Word format.\
+\
+The text is relatively accessible. The materials (precious metals in a
+computer, for instance) are not.\
+\
+Plaintext is the most accessible, malleable, searchable.\
+Encryption is in an Espionage act. Weapons and encryption are military
+technology. It'92s somebody writing something and wanting to submit it
+through a secure channel.\
+\
+Minimal computer'97in places where service is not guaranteed or as fast.
+If you want to be able to reach an African public, you'92ll have to
+write in a different format'97something other than PDF. Instead of
+documents being born as Word docs, we'92ll be able to start them as
+plaintext. A movement to Word might be an act of publication.\
+\
+Form and content separated, gives you certain freedoms and affordances.\
+MS Word: the form and content are not separate. Writing and formatting
+happen simultaneously.\
+When italicizing a word, there is mark-up underneath. The formatting has
+to be embedded in a layer under your content. In a perverse way, what
+you see isn'92t what you get. That formatting layer is proprietary. The
+thing that will recreate that layer is either your printer or MS Word.
+Nothing else will italicize for you.\
+\
+Typesetting is a huge exporting market, mostly in India. Smart thing to
+do would be to \b separate \b0 the content from the formatting. We'92re
+surrounded by devices that will format text differently. Why are we so
+concerned about formatting? It frees you a little bit.\
+\
+Typical code/text distinction. Elements, text, headers. Markdown is a
+markup language like HTML.\
+HTML is already preferable to MS Word because it is human-readable.\
+\
+MS Word tried to answer this criticism by making their rendering in XML.
+Extensible markup language.\
+XML was so exciting because it was able to make many different MLs.
+'93It was like Aristotelian philosophy.'94\
+\
+HTML did not want to have control over the form of a paragraph, they
+just wanted to have a semantic structure. They want to let the browser
+worry about it. An HTML doc flows nicely between a large and small
+screen. The formatting is not embedded there, just semantic elements.
+The problem is that you'92re not going to write a term paper like that.\
+\
+Form, content, and formatting'97all are slightly different.\
+(Style, content, and semantics)\
+\
+A purer version would be to have an element called emphasis and let
+someone else decide if it was bold, italics, etc.\
+\
+Point of markdown was to create a '93not gunky'94 language (readable).
+To answer to that Arisotelian ideal of content, semantics, and style.\
+\
+There is actually a governing body who decides what HTML is.\
+Look up daring fireball. (Aaron Schwartz was involved.) A guy said '93I
+propose this'94 and then markdown became very widely used.\
+Reddit and Wiki comments are in markdown.\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+}
+

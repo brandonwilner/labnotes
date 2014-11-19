@@ -1,0 +1,85 @@
+### Lab 10/1/14
+
+### Unix
+
+##### *To view our computing systems as literary ones*—thesis of the course
+
+###### These are the basics of the terminal
+
+    **GPS** (where am I?)
+
+    pwd         
+    ls
+    tab
+    cat (lists contents of the file)
+    man
+    echo  (echos what you put in)
+    -h
+    --h
+    history
+
+    **Files**
+    mkdir (make a directory)
+    touch (create file)
+    cd   (change directory)
+    cp  (copy file)(danger)
+    mv  (view file)(danger)
+    rm  (remove file)(danger)
+
+    **Operators**
+    >  (danger)  >>
+    | (paginator)
+    !
+
+    **Paths/Shortcuts**
+    / root
+    ~ home
+    - previous
+
+    **Posix**
+        v          adv            n
+       rm          -i            temp
+    "command"     "flag"         "target"
+
+    **Search**
+    find 
+    awk
+    grep  (search Ex: history | grep "hello")
+
+    **Network**
+    SCP
+    SSM
+    Ping
+    Traceroute 
+    rsync
+    wget
+
+"Tab the world." No spaces in filenames. Can mess up syntax. Also don't
+use capitals. Be consistent in naming files.
+
+To be safe, never use the "rm" function. Make a trash directory.
+
+    mkdir temp/
+    cd temp/
+    Press "q" to exit scrolling through history.
+
+    mkdir temp2/
+    pwd
+    ls
+    cd temp2/
+    pwd
+    cd ..
+    cd temp2
+    touch target1.txt
+    ls
+    cp target1.twt target3.txt (makes copy of target one and titles it target3)
+
+    A backslash indicates a directory "temp/"
+    ls -l (list in longform)
+
+\`\`\` Make sure you know where you are when you're doing these things.
+Don't just press buttons.
+
+Next time we'll be able to grab files from the net and stuff it into the
+"same pipes."
+

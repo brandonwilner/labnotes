@@ -1,0 +1,75 @@
+#### Lab 10/15/2014
+
+    Unix split into two families: FreedBSD, Linux
+
+    Find command
+    . functions as "here"
+    find . -name "ora*"
+    / would search in the root directory
+    * means "start with anything"
+
+    Find functions similarly to Spotlight on Mac
+    You can make the find function very complex, but it can also just be a general text search. 
+
+    wget
+    grep is like full-text search in a specific file.
+
+    (save within nano command)
+    (nano can add text to a file)
+    cntl o
+    enter
+    cntl x
+
+    grep syntax: look for orange   in whichever directory
+
+    grep is recursive. can search every directory within a directory.
+
+    grep "word" (file) | wc
+    this command does word count:
+    counts lines, (within however many) words, characters
+
+    history | wc
+    takes everything from history and passes it through wordcount
+
+    We've just used tiny commands until now, but now we're doing text analysis
+
+    sort oranges.txt | uniq -c
+    sorts text alphabetically in unique line appearances.
+
+Operating system has a difference b/t plaintext and binary. System has a
+preference for plaintext.
+
+At the bottom of it, a letter is expressed in the digital "gates" of a
+computer.
+
+    sed command - streamline editor
+    sex 's/day/night' 24hrs.txt
+
+"critical computing in the humanities"
+
+    you can save these commands and turn them into shell scripts, like something that says "find every instance of "whale" with "pumpkin"
+
+\`\`\` Assignment Analyze the treatment of gender in Moby Dick
+
+Create a new project directory Grab the text of Moby Dick Make two lists
+of gender words (files called male.txt and female.txt with he, male, him
+and she, her)
+
+Grab the context of all the male words and their contexts and with all
+of the female words and their contexts. Get rid of common English words.
+
+Second channel called "Weasel words" Take a piece of writing and check
+for clarity of writing.
+
+Copy three pieces of your own writing, convert them into plaintext, make
+a list of files that are weasel words (clearly, obviously, words that
+you hate in writing). Write a script that replaces those (only *three*)
+weasel words with a space.
+
+grep "pumpkin"
+
+sed can take a file as an attribute. you can actually give it a list of
+words.
+
+grep -f obtains patterns from a file.
+

@@ -85,8 +85,6 @@
 
     **All of this is only possible if you write in plaintext**
 
-    Open a new repository (folder on github) called labnotes. Push your labnotes to that repository. 
-
 
 
 

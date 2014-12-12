@@ -1,0 +1,73 @@
+####Lab Dec. 3
+
+------------------------------------------------------------------------
+
+####Github
+------
+
+  -  git init
+    - Creates file
+
+  -  git add
+    -  Adds file to stage
+
+  -  git commit -m
+    -  Adds it to git
+
+  -  git push
+    -  Adds to remote server
+
+ -   git pull
+   -   Take everything on remote server and add it to local git.
+
+ -   git status 
+   -   Asking git what's happening exactly.
+
+ -   git checkout
+   -   Reverts to prior version of file. 
+
+ -   Creating repository command line:
+       touch README.md
+    -   git init
+    -   git add README.md
+    -   git commit -m "first commit"
+    -   git remote add origin https://github.com/brandonwilner/arbitrary.git
+    -   git push -u origin master
+
+
+####Servers
+```
+Five years ago, system administrator would have been the controller of a server. Now there's a move from managing a server to creating servers as if they're software. Before, it was a box, a physical object. Today, the server is an abstraction. It does have some materiality under it. 
+
+As far as we're concerned, the server is an abstraction. It exists a series of code.
+
+Cloud orchestration: piece of code that says to spin up a certain amount of servers in a particular configuation. 
+
+DevOps. Operations and development, the rebirth of the sysadmin, but no longer just a "janitor" but is a developer in her own right. Responsible for the whole "orchestra" of servers. 
+
+Everything due on the 13th. 
+
+Server:
+Storage space/brain
+Specialized computer that hosts websites
+Serves info in real time
+Service to be paid for
+
+In everyday use, you do some stuff locally (writing a file, listen to DLed music). You also do a bunch of stuff where you're being serviced. A server is serving info in real time, e.g. gmail. 
+
+There's a pendulum swing. In the old days there was a central computer and individual terminals could only type. Personal computing revolution happen and we started to compute locally. With the cloud, we are now going back to a centralized server model. 
+
+A computer that's always on. 
+
+We're going to create a _virtual_ server on the cloud. 
+
+_The Cloud_
+Cloud also known as platform as a service (a service you'll be requesting). There are now three or four big cloud providers, Amazon probably the biggest. It virtualizes the various components of what an actual server would be. Server is an abstract entity. We can envision it as a box, but it just lives in the cloud. Amazon servers are elastic, will expand and contract (and charge you accordingly) according to the traffic of your website. The server has ports going in and out. "Little pipes coming into and out of your computer." In Amazon, the "harddrive" is another abstraction—there's one called S3, one called Elastic Block (EBS), one called Glacier. Different kinds of storage. Instead of buying a server or rackspace, you buy these cloud-based storage spaces. 
+
+The notion of cloud computing is to virtualize hardware. We don't have control over the material substrata. 
+
+_AWS_
+EC2 storage in the cloud
+If you want to make sure you're never charged, you wanted to concern yourself with limitations.
+
+Instances is the most important section.
